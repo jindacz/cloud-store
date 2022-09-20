@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.6rem;
+    padding-top: 60px;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.alert alert-danger {
+    color: red;
+    }
+
+
+.btn-primary a{
+    color: white;
+    text-decoration: none;
+}
+
+.categoryName{
+    text-decoration: underline;
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+a, li a{
+    text-decoration: none;
+}
+
+form, option{
+    font-size: 1.3rem;
+}
+
+form{
+    border: 3px solid #0d6efd;
+    border-radius: 10px;
+    padding: 50px 30px 40px 30px;
+}
+
+.container{
+    padding-top: 50px;
+}
+
+.categoryForm, .groceryForm{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.categoryForm > button {
+    width: 300px;
+}
+
+.editPage a {
+    font-size: 1.3rem;
+}
+
+
+.widget-content {
+    padding: 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.widget-content .widget-content-wrapper {
+    display: flex;
+    flex: 1;
+    position: relative;
+    align-items: center;
+}
+
+.widget-content .widget-content-right.widget-content-actions {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.widget-content-right {
+    margin-left: auto;
+}
+
+.widget-content-left {
+    margin-right: auto;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
